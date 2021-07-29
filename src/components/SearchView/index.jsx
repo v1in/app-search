@@ -6,7 +6,11 @@ const SearchView = ({sortedItems}) => {
     <Item key={user.id} data={user} />
   ));
 
-  return <ul className={styles.wrap}>{sortedList}</ul>;
+  return (
+    <div className={styles.wrap}>
+      {sortedList.length > 0 ? <ul>{sortedList}</ul> : <small>No result</small>}
+    </div>
+  );
 };
 
 export default SearchView;
