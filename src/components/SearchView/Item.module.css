@@ -1,0 +1,10 @@
+.wrap {
+  margin: 10px 0;
+}
+
+ul {
+  align-items: center;
+  list-style-type: none;
+  padding: 0;
+  counter-reset: counter;
+}

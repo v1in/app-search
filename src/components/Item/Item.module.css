@@ -1,0 +1,19 @@
+.item {
+  position: relative;
+  counter-increment: counter;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  color: #9e9e9e;
+}
+
+.item::before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  content: counter(counter) '.';
+}
+
+strong {
+  color: #000;
+  padding-right: 10px;
+}
