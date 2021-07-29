@@ -11,7 +11,7 @@ const SearchView = ({sortedItems}) => {
       {sortedList.length > 0 ? (
         <ul className={styles.list}>{sortedList}</ul>
       ) : (
-        <small>No result</small>
+        <small>🤷‍♂️ no result :(</small>
       )}
     </div>
   );
