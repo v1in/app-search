@@ -2,15 +2,10 @@
   margin: 20px 0;
 }
 
-ul {
+.list {
   align-items: center;
   list-style-type: none;
   padding: 0;
   margin: 0;
   counter-reset: counter;
-}
-
-small {
-  display: block;
-  text-align: center;
 }

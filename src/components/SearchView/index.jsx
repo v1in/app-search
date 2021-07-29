@@ -8,7 +8,11 @@ const SearchView = ({sortedItems}) => {
 
   return (
     <div className={styles.wrap}>
-      {sortedList.length > 0 ? <ul>{sortedList}</ul> : <small>No result</small>}
+      {sortedList.length > 0 ? (
+        <ul className={styles.list}>{sortedList}</ul>
+      ) : (
+        <small>No result</small>
+      )}
     </div>
   );
 };
